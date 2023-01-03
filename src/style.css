@@ -1,0 +1,17 @@
+#app {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-flow: row nowrap;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#app > * {
+  border: 2px solid white;
+  border-radius: 8px;
+
+  overflow: hidden;
+}
